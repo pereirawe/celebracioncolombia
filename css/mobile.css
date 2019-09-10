@@ -1,0 +1,101 @@
+@media screen and (max-width: 480px){
+    .mobile-hidden{
+        display: none;
+    }
+    .ps-15{
+        padding: 0px 5px;
+    }
+    #home-counter{
+        text-align: center;
+    }
+    #home-counter .col-md-8 h4{
+        text-align: center;
+    }
+    #home-counter .col-md-8 h4 .contentCount{
+        display: inline-block;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    #home-counter .col-md-8 h4 .contentCount .contentNumber{
+        display: block;
+    }
+    #home-counter .col-md-8 h4 .contentCount .contentWord{
+        font-size: .65rem;
+    }
+
+    #home-video iframe {
+        min-height: 10rem;
+    }
+
+    #home_part_1 p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #home_part_1 h3.textGreen {
+        font-size: 1rem;
+    }
+
+    #home_tuviaje h4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #home_agenda h4{
+        font-size: 120%;
+    }
+    #enterateahora_content{
+        padding: 0px 5px;
+    }
+    #enterateahora_content ul{
+        display: block;
+    }
+    #enterateahora_content ul li{
+        display: block ;
+        width: 100%;
+    }
+
+    #agenda-links a{
+        display: block;
+    }
+
+    #tuviaje_hospedaje_img,
+    #tuviaje_parqueadero_img,
+    #tuviaje_alimentos_img,
+    #tuviaje_transporte_img,
+    #voluntarios_1_img,
+    #voluntarios_2_img,
+    #voluntarios_3_img
+    {
+        min-height: 15rem;
+    }
+
+    #tuviaje_parqueadero_img,
+    #tuviaje_transporte_img,
+    #voluntarios_2_img
+    {
+        order: 2
+    }
+
+    #enterateahora_content h3{
+        text-align: center;
+    }
+
+    .tablinks{
+        margin: 5px 0px;
+    }
+
+    footer{
+        text-align-last: center;
+    }
+
+    footer .pt-5{
+        text-align-last: center;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    footer .col-md-8{
+        text-align: center;
+        padding-top:    1rem !important;
+    }
+}
